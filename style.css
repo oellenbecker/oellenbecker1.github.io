@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif; 
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: green;
+  color: whitesmoke;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+.graydiv {
+  background-color: lightgrey;
+  width: 100%;
+  padding: 20px;
+}
